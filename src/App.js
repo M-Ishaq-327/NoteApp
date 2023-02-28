@@ -4,7 +4,7 @@ import About from './About';
 
 //import {Switch} from 'react-router';
 import {
-  BrowserRouter as Router,
+  HashRouter ,
   Routes,
   Route,
   Link
@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter>
     <Navbar 
       title="Note"
       navitem1="Home"
@@ -33,7 +33,7 @@ function App() {
      />
      </Routes>
     </div>
-</Router>
+</HashRouter>
     </>
     
    
